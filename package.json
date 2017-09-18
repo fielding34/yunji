@@ -1,0 +1,25 @@
+{
+  "name": "yunji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fielding34/yunji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fielding34/yunji/issues"
+  },
+  "homepage": "https://github.com/fielding34/yunji#readme",
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.0"
+  }
+}
