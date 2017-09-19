@@ -16,7 +16,7 @@ let defaultErrorHandler = function (err) {
     }
 };
 
-//自定义cuostomPromise, 用于设定一个默认错误处理器
+//自定义customPromise, 用于设定一个默认错误处理器
 //此处用到ES6, 默认参数的功能
 function wrappedPromise(promise) {
     var then = promise.then;

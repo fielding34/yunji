@@ -1,4 +1,4 @@
-import commonService from '../service/common.service';
+//import commonService from '../service/common.service';
 
 /**
  * 存储用户登录信息（fullName, token）
@@ -15,16 +15,16 @@ class Store {
 
     //设置登录用户
     login(token, fullName) {
-        $.cookie('token', token);
+        $.cookie('yj_token', token);
         this.fullName = fullName;
 
         //登录后初始化数据
-        commonService.initLeanCloud();
-        commonService.initServerConfig();
+        //commonService.initLeanCloud();
+        //commonService.initServerConfig();
     }
 
     logout() {
-        $.removeCookie('token');
+        $.removeCookie('yj_token');
         this.fullName = null;
     }
 
